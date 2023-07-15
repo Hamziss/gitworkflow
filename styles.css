@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body > div {
+body>div {
   display: flex;
   font-family: "Montserrat", sans-serif;
   flex-direction: column;
@@ -22,15 +22,16 @@ body > div {
   gap: 20px;
 }
 
-.flexcolumn:nth-child(2) > img {
+.flexcolumn:nth-child(2)>img {
   width: 50vw;
   max-width: 70px;
 }
 
-.flexcolumn:first-child > img {
+.flexcolumn:first-child>img {
   width: 50vw;
   max-width: 484px;
 }
+
 
 h1 {
   color: #e50914;
