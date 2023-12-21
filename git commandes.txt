@@ -1,0 +1,21 @@
+git init : initialise le dépôt (se mettre sur le bon dossier), mieux à faire depuis Github.com
+
+git add . : ajoute toutes les modifications (le . symbolise tout)
+
+git commit -m "explication" : créer un nouveau commit. git add pousse les fichiers en zone d'index, git commit les sauvegarde réellement dans un nouveau commit
+
+git log : liste des commits
+
+git log -n2 : affiche les 2 derniers commits
+
+git show sha-1 : voir commit spécifique (cliquer molette souris pour coller)
+
+git checkout sha-1 : remettre la version du sha-1
+
+git checkout main : remettre version la plus récente
+
+git clone lien-github.com : récupérer travail depuis dépôt distant
+
+git push -u origin main : pousse les modifications vers serveur
+
+git push -f origin main : pousse de force des modifications (manipuler avec précaution)
