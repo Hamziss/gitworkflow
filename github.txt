@@ -1,0 +1,4 @@
+git remove add <url_du_depot> : cette commande permet de est utilisée pour ajouter un dépôt distant à votre dépôt local. 
+git clone <adresse copiee> : cette commande permet de rapporter du code depuis github a mon PC 
+git push origin nom_de_la_branche : cette commande permet de pousser du code vers une autre destination 
+git pull origin nom_de_la_branche : cette commande permet de rapporter du code depuis une source externe 
